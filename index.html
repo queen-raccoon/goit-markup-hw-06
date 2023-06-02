@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -23,7 +24,7 @@
         <!-- Top Line -->
         <div class="container page-header-container page-header-position">
             <nav class="page-header-container">
-                <a href="./index.html" class="logo link">
+                <a href="./index.html" class="logo link animate__animated animate__bounceIn">
                     Web<span class="logo-studio-up">Studio</span>
                 </a>
                 <ul class="menu-list padding-none list">
@@ -575,8 +576,26 @@
                     </li>
                 </ul>
             </div>
+        
+            <form class="contact-subscribe">
+                <lable class="contact-title">
+                    <span class="contant-from-subscribe-telegram-box">
+                        <span class="contact-form-subscribe-title">Subscribe</span>
+                        <input class="contact-form-input contact-from-subscribe-email" type="email" placeholder="E-mail">
+                    </span>
+                    <button class="contact-from-subscribe-btn">
+                        <span class="contact-form-subscribe-title-btn">Subscribe</span>
+                        <svg class="contact-from-subscribe-btn-icon" 
+                          width="24" 
+                          height="24">
+                            <use href="./images/icons.svg#icon-telegram"></use>
+                        </svg>
+                    </button>
+                </lable>
+            </form>
         </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
