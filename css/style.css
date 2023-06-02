@@ -582,6 +582,17 @@ button:focus {
     pointer-events: none;
 }
 
+.contact-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
 .contact-from-field-wrapper {
     margin-bottom: 8px;
 }
@@ -622,8 +633,10 @@ button:focus {
 }
 
 .contact-form-checkbox-wrapper {
-    display: block;
-    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .contact-from-field-checkbox-wrapper {
@@ -632,7 +645,6 @@ button:focus {
     line-height: 14px;
     letter-spacing: 0.04em;
     color: #8E8F99;
-
 }
 
 .contact-from-input-icon {
@@ -660,5 +672,66 @@ button:focus {
     border-color: #4D5AE5;
     border: 1px solid #4D5AE5;
     border-radius: 4px;
+}
+
+.contact-form-checkbox {
+    appearance: none;
+    position: absolute;
+}
+
+.contact-form-checkmark-checkbox {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+}
+
+.contact-from-own-checkbox {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    padding: 4px 3px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.contact-form-checkbox:focus+.contact-from-own-checkbox {
+    outline: auto;
+}
+
+.contact-form-checkbox:checked + .contact-from-own-checkbox {
+    background-color: #404BBF;
+    border: 1px solid #404BBF;
+    border-radius: 2px; 
+    padding: 4px 3px;
+    cursor: pointer; 
+}
+
+.contact-form-checkbox:checked + .contact-from-own-checkbox > .contact-form-checkmark-icon {
+    opacity: 1;
+    fill: #F4F4FD;
+}
+
+.contact-form-checkmark-icon {
+    opacity: 0;
+}
+.content-from-link {
+    text-decoration-line: underline;
+    color: #4D5AE5;
+}
+
+
+.contant-from-submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    padding: 16px 64px;
+
 }
 /* ======== /backdrop ======== */
