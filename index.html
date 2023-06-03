@@ -600,12 +600,14 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hidden modal" data-modal>
+    <div class="backdrop is-hidden"></div>
+
+    <div class="modal" data-modal>
         <p class="contact-title">Leave your contacts and we will call you back</p>
         <form class="contact-from">
-            <label class="contact-from-field-wrapper">
-                <span class="contact-from-field-desc">Name</span>
-                <span class="contact-from-input-wrapper">
+            <div class="contact-from-field-wrapper">
+                <label class="contact-from-field-desc">Name</label>
+                <div class="contact-from-input-wrapper">
                     <input type="text" 
                       class="contact-form-input" 
                       name="user_first_name" 
@@ -619,8 +621,8 @@
                       height="18">
                         <use href="./images/icons.svg#icon-person"></use>
                     </svg>
-                </span>
-            </label>
+                </div>
+            </div>
             <label class="contact-from-field-wrapper">
                 <span class="contact-from-field-desc">Phone</span>
                 <span class="contact-from-input-wrapper">
