@@ -628,9 +628,10 @@ button:focus {
 .contact-title{
     display: flex;
     justify-content: center;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
+    text-align: center;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -651,9 +652,7 @@ button:focus {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
-    transition: border-color var(--transition-duration-and-funk),
-        border var(--transition-duration-and-funk),
-        fill var(--transition-duration-and-funk);
+    transition: border-color var(--transition-duration-and-funk);
 }
 
 .contact-form-input:focus + .contact-from-input-icon {
@@ -665,7 +664,8 @@ button:focus {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    letter-spacing: 0.01em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
 }
@@ -695,6 +695,7 @@ button:focus {
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
+    transition: fill var(--transition-duration-and-funk);
 }
 
 .contact-form-message {
