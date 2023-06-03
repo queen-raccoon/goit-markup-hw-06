@@ -652,6 +652,8 @@ button:focus {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
+    background-color: transparent;
+    outline: transparent;
     transition: border-color var(--transition-duration-and-funk);
 }
 
