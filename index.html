@@ -673,19 +673,21 @@
                     <input class="contact-form-checkbox visually-hidden" 
                         type="checkbox" 
                         id="user-privacy" 
-                        name="user_policy"
+                        name="user-privacy"
+                        value="true"
                         required
-                        >
-                        <svg 
+                    >
+                    <label for="user-privacy" class="contact-from-field-checkbox-wrapper">
+                        I accept the terms and conditions of the
+                        <span class="content-from-link">Privacy Policy</span>
+                    </label>
+
+                    <!-- <svg 
                         class="contact-from-own-checkbox"
                         width="16"
                         height="16">
                         <use class="contact-form-checkmark-icon" href="./images/icons.svg#icon-check-mark"></use>
-                        </svg>
-                    <label for="user-privacy" class="contact-from-field-checkbox-wrapper">
-                        I accept the terms and conditions of the
-                        <a class="content-from-link">Privacy Policy</a>
-                    </label>
+                    </svg> -->
                 </div>
                 <button type="submit" class="contant-from-submit">Send</button>
             </form>
