@@ -605,6 +605,7 @@
             <span></span>
             <p class="contact-title">Leave your contacts and we will call you back</p>
             <form class="contact-from">
+                <!-- 1 element -->
                 <div class="contact-from-field-wrapper">
                     <label for="user-name" class="contact-from-field-desc">Name</label>
                     <div class="contact-from-input-wrapper">
@@ -624,6 +625,8 @@
                         </svg>
                     </div>
                 </div>
+                
+                <!-- 2 element -->
                 <div class="contact-from-field-wrapper">
                     <label for="user-tel" class="contact-from-field-desc">Phone</label>
                     <div class="contact-from-input-wrapper">
@@ -644,6 +647,8 @@
                         </svg>
                     </div>
                 </div>
+
+                <!-- 3 element -->
                 <div class="contact-from-field-wrapper">
                     <label for="user_email" class="contact-from-field-desc">Email</label>
                     <div class="contact-from-input-wrapper">
@@ -661,7 +666,9 @@
                         </svg>
                     </div>
                 </div>
-                <div class="contact-from-field-wrapper contact-from-field-wrapper-maargin">
+
+                <!-- 4 element -->
+                <div class=" contact-from-field-wrapper-margin">
                     <label for="user-comment" class="contact-from-field-desc">Comment</label>
                     <textarea class="contact-form-message" 
                         id="user-comment" 
@@ -669,6 +676,8 @@
                         placeholder="Text input"
                     ></textarea>
                 </div>
+
+                <!-- 5 element -->
                 <div class="contact-form-checkbox-wrapper">
                     <input class="contact-form-checkbox visually-hidden" 
                         type="checkbox" 
@@ -678,16 +687,16 @@
                         required
                     >
                     <label for="user-privacy" class="contact-from-field-checkbox-wrapper">
-                        I accept the terms and conditions of the
                         <span class="content-from-link">
                             <svg class="contact-from-own-checkbox" width="10" height="8">
                                 <use class="contact-form-checkmark-icon" href="./images/icons.svg#icon-check-mark"></use>
                             </svg>
-                            <a class="contact-form-checkmark-link">Privacy Policy</a>
                         </span>
+                        I accept the terms and conditions of the <a class="contact-form-checkmark-link">Privacy Policy</a>
                     </label>
-
                 </div>
+
+                <!-- 6 element -->
                 <button type="submit" class="contant-from-submit">Send</button>
             </form>
             <button type="button" class="modal-close-btn" data-modal-close>
