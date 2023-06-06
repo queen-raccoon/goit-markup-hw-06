@@ -640,9 +640,7 @@ button:focus {
     background-color: #4D5AE5;
     border-radius: 4px;
     margin-left: 24px;
-}
 
-.contact-form-subscribe-title-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -677,7 +675,7 @@ button:focus {
     margin-bottom: 8px;
 }
 
-.contact-from-field-wrapper-margin{
+.contact-from-field-wrapper:nth-child(3) {
     margin-bottom: 16px;
 }
 
