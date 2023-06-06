@@ -583,14 +583,14 @@
                 <p class="contact-form-subscribe-title">Subscribe</p>
                 <form class="contact-subscribe-info">
                     <label class="contact-title">
-                        <input class="contact-from-subscribe-email" type="email" placeholder="E-mail">
-                        <button class="contact-from-subscribe-btn">
-                            <span class="contact-form-subscribe-title-btn">Subscribe</span>
-                            <svg class="contact-from-subscribe-btn-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-telegram"></use>
-                            </svg>
-                        </button>
+                        <input class="contact-from-subscribe-email" type="email" placeholder="E-mail" name="user-email">
                     </label>
+                    <button type="submit" class="contact-from-subscribe-btn">
+                        <span class="contact-form-subscribe-title-btn">Subscribe</span>
+                        <svg class="contact-from-subscribe-btn-icon" width="24" height="24">
+                           <use href="./images/icons.svg#icon-telegram"></use>
+                        </svg>
+                    </button>
                 </form>
 
             </div>
@@ -647,7 +647,7 @@
                 </div>
 
                 <!-- 3 element -->
-                <div class="contact-from-field-wrapper">
+                <div class="contact-from-field-wrapper contact-from-field-wrapper-margin">
                     <label for="user_email" class="contact-from-field-desc">Email</label>
                     <div class="contact-from-input-wrapper">
                         <input type="email" 
@@ -666,7 +666,7 @@
                 </div>
 
                 <!-- 4 element -->
-                <div class=" contact-from-field-wrapper-margin">
+                <div class=" contact-from-field-wrapper">
                     <label for="user-comment" class="contact-from-field-desc">Comment</label>
                     <textarea class="contact-form-message" 
                         id="user-comment" 
