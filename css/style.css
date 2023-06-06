@@ -395,6 +395,38 @@ button:focus {
     margin: 24px 100px;
 }
 
+.contact-form-subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.contact-subscribe-info {
+    display: flex;
+    gap: 24px;
+}
+
+.contact-from-subscribe-email {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.contact-from-subscribe-email::placeholder {
+    color: #ffffff;
+}
 
 /*======== /FOOTER ========*/
 /* ======== /index.html ======== */
@@ -576,11 +608,10 @@ button:focus {
     transition: fill var(--transition-duration-and-funk);
 }
 
-
-.contact-subscribe {
+/* .contact-subscribe {
    display: block;
    margin-right: auto;
-}
+} */
 
 .contact-form-subscribe-title {
     display: block;
@@ -600,6 +631,11 @@ button:focus {
 }
 
 .contact-from-subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
     background-color: #4D5AE5;
     border-radius: 4px;
