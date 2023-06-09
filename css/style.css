@@ -175,7 +175,7 @@ button:focus {
     margin: 0 auto;
     background-color: var(--second-text-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-     url(../images/people-office.jpg);
+     url(../images/img-people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -247,7 +247,7 @@ button:focus {
     margin-bottom: 8px;
 }
 
-.social-list{
+.social-list {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -342,12 +342,16 @@ button:focus {
 /* ------ /main ------ */
 
 /*======== FOOTER ========*/
+.footer-icons {
+    margin-right: 80px;
+}
+
 .footer-description {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    width: 264px;
+    /* width: 264px; */
 }
 
 .main-btm-text {
@@ -365,9 +369,11 @@ button:focus {
     margin-bottom: 16px;
 }
 
-.social-list-link-footer{
+.social-list-link-footer {
+    display: flex;
     gap: 16px;
     justify-content: left;
+
 }
 
 .footer-block {
@@ -633,14 +639,13 @@ button:focus {
     padding: 8px 24px;
     background-color: #4D5AE5;
     border-radius: 4px;
-    margin-left: 24px;
     border: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    margin-right: 16px;
+    
 }
 
 .contact-from-subscribe-btn-icon {
